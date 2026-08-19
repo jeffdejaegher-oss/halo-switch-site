@@ -6,7 +6,7 @@ Static consulting site for Halo Switch (no build step, no live Graph, no secrets
 
 | File | Purpose |
 |------|---------|
-| `index.html` | Landing (hero mock) |
+| `index.html` | Landing (black / condensed mock) |
 | `services.html` | Workstreams the toolkit actually covers |
 | `pricing.html` | Fixed-fee framing (no invented dollar amounts) |
 | `contact.html` | Contact / about |
@@ -36,6 +36,6 @@ For a one-off manual publish without Actions, copy `site/` contents to a `gh-pag
 
 ## Design lock (landing)
 
-- Deep navy header (`#0B1C33`), white canvas, single teal accent
-- Headline / subhead / CTAs and LICENSE → DYNAMIC GROUP → DEVICE diagram per approved mock
-- No testimonials, client logos, metrics, case studies, or invented prices
+- Full black canvas (`#000000`), white type, optional sparse red accent (`#E31937`)
+- Huge condensed headline, small-caps nav (`WORK / PRICING / CONTACT`), outline CTAs
+- Thin LICENSE → GROUP → DEVICE line diagram — no rounded SaaS cards, no teal/purple, no stock photos or fake testimonials

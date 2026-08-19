@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/styles.css" />
@@ -22,7 +22,6 @@
       <div class="nav-wrap">
         <a class="brand" href="index.html">
           <span class="brand-name">Halo Switch</span>
-          <span class="brand-tag">Microsoft 365 for healthcare</span>
         </a>
         <button
           class="nav-toggle"
@@ -33,12 +32,11 @@
           Menu
         </button>
         <nav id="site-nav" class="site-nav" aria-label="Primary">
-          <a href="services.html">What we do</a>
-          <a href="pricing.html">How we work</a>
-          <a href="services.html#lifecycle">Who we help</a>
-          <a href="https://github.com/jeffdejaegher-oss/halo-switch">Resources</a>
-          <a href="contact.html">About</a>
-          <a class="nav-cta" href="contact.html">Talk to us</a>
+          <a href="services.html">Work</a>
+          <span class="nav-sep" aria-hidden="true">/</span>
+          <a href="pricing.html">Pricing</a>
+          <span class="nav-sep" aria-hidden="true">/</span>
+          <a href="contact.html">Contact</a>
         </nav>
       </div>
     </header>
@@ -46,60 +44,39 @@
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <h1 id="hero-title">License-driven Microsoft 365 for healthcare</h1>
-          <p class="hero-lede">Fixed-fee. Scripted. No mystery hours.</p>
+          <h1 id="hero-title">License-driven Microsoft&nbsp;365.</h1>
+          <p class="hero-lede">Healthcare. Scripted. Fixed-fee.</p>
           <div class="cta-row">
-            <a class="button button-primary" href="services.html">See the work</a>
-            <a class="button button-outline" href="contact.html">Talk to us</a>
+            <a class="button button-outline" href="services.html">See the work</a>
           </div>
         </div>
 
-        <div class="hero-visual" aria-hidden="false">
-          <div class="flow-diagram" role="img" aria-label="License to dynamic group to device flow">
+        <div class="hero-visual">
+          <div
+            class="flow-diagram"
+            role="img"
+            aria-label="License to group to device flow"
+          >
             <div class="flow-step">
-              <div class="flow-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-                  <path d="M7 3.5h7.5L18.5 7.5V20.5H7z" />
-                  <path d="M14.5 3.5V7.5H18.5" />
-                  <path d="M10 13l1.75 1.75L15 11.5" />
-                </svg>
-              </div>
               <p class="flow-label">License</p>
-              <p class="flow-desc">Assign the right Microsoft 365 license</p>
             </div>
             <div class="flow-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M5 12h14M13 6l6 6-6 6" />
+              <svg viewBox="0 0 48 8" fill="none" stroke="currentColor" stroke-width="1">
+                <path d="M0 4h42" />
+                <path d="M38 1l6 3-6 3" />
               </svg>
             </div>
             <div class="flow-step">
-              <div class="flow-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-                  <circle cx="9" cy="8" r="2.25" />
-                  <circle cx="15.5" cy="8.5" r="2" />
-                  <path d="M4.5 17.5c.6-2.4 2.3-3.7 4.5-3.7s3.9 1.3 4.5 3.7" />
-                  <path d="M13.2 13.2c1.1-.5 2.4-.6 3.8.1 1.5.8 2.4 2.2 2.7 4.2" />
-                </svg>
-              </div>
-              <p class="flow-label">Dynamic group</p>
-              <p class="flow-desc">Automatically add and remove the right people</p>
+              <p class="flow-label">Group</p>
             </div>
             <div class="flow-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M5 12h14M13 6l6 6-6 6" />
+              <svg viewBox="0 0 48 8" fill="none" stroke="currentColor" stroke-width="1">
+                <path d="M0 4h42" />
+                <path d="M38 1l6 3-6 3" />
               </svg>
             </div>
             <div class="flow-step">
-              <div class="flow-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-                  <rect x="3" y="5" width="12" height="9" rx="1" />
-                  <path d="M7 17h4" />
-                  <rect x="16" y="8" width="5" height="9" rx="1" />
-                  <path d="M17.5 15.5h2" />
-                </svg>
-              </div>
               <p class="flow-label">Device</p>
-              <p class="flow-desc">Right access on the right device</p>
             </div>
           </div>
         </div>
@@ -108,12 +85,6 @@
       <section class="services-strip" aria-label="Core services">
         <div class="services-strip-inner">
           <article class="service-card">
-            <svg class="service-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-              <circle cx="9" cy="8" r="2.25" />
-              <circle cx="15.5" cy="8.5" r="2" />
-              <path d="M4.5 17.5c.6-2.4 2.3-3.7 4.5-3.7s3.9 1.3 4.5 3.7" />
-              <path d="M13.2 13.2c1.1-.5 2.4-.6 3.8.1 1.5.8 2.4 2.2 2.7 4.2" />
-            </svg>
             <h2>Dynamic Groups</h2>
             <p>Build and manage dynamic groups that stay accurate as your organization changes.</p>
             <a class="more" href="services.html#dynamic-groups">
@@ -125,12 +96,6 @@
           </article>
 
           <article class="service-card">
-            <svg class="service-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-              <path d="M4 12a8 8 0 0 1 13.5-5.8" />
-              <path d="M20 12a8 8 0 0 1-13.5 5.8" />
-              <path d="M17.5 4.5V8H14" />
-              <path d="M6.5 19.5V16H10" />
-            </svg>
             <h2>Lifecycle</h2>
             <p>Joiner, mover, leaver processes that provision access and remove it on time.</p>
             <a class="more" href="services.html#lifecycle">
@@ -142,12 +107,6 @@
           </article>
 
           <article class="service-card">
-            <svg class="service-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-              <path d="M8 4h8v16H8z" />
-              <path d="M11 2.5h2v3h-2z" />
-              <path d="M10.5 10l1.25 1.25L14 8.9" />
-              <path d="M10.5 14.5l1.25 1.25L14 13.4" />
-            </svg>
             <h2>License audit</h2>
             <p>Right-size spend and reduce risk with a clear view of entitlements and usage.</p>
             <a class="more" href="services.html#license-groups">
