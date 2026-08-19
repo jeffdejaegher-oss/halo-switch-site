@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Services — Halo Switch</title>
+    <meta
+      name="description"
+      content="Halo Switch Microsoft 365 services: dynamic groups, lifecycle automation, license-driven group maintenance, Intune, and SSO inventory."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="index.html">
+          <span class="brand-name">Halo Switch</span>
+          <span class="brand-tag">Microsoft 365 for healthcare</span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="services.html" aria-current="page">What we do</a>
+          <a href="pricing.html">How we work</a>
+          <a href="services.html#lifecycle">Who we help</a>
+          <a href="https://github.com/jeffdejaegher-oss/halo-switch">Resources</a>
+          <a href="contact.html">About</a>
+          <a class="nav-cta" href="contact.html">Talk to us</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <header class="page-hero">
+        <h1>What we do</h1>
+        <p>
+          Engagement-shaped Microsoft 365 workstreams backed by the Halo Switch
+          PowerShell and Graph toolkit — license-mapped, auditable, and safe to
+          dry-run before production.
+        </p>
+      </header>
+
+      <section class="section">
+        <ul class="service-list">
+          <li id="dynamic-groups">
+            <h3>Dynamic Groups</h3>
+            <div>
+              <p>
+                Create and audit Entra dynamic membership rules (department,
+                country, job title patterns) so access stays aligned as the
+                organization changes.
+              </p>
+              <span class="service-meta">Typical license: Entra ID P1+</span>
+            </div>
+          </li>
+          <li id="lifecycle">
+            <h3>Lifecycle (joiner / mover / leaver)</h3>
+            <div>
+              <p>
+                Scripted onboarding, role-change mover, and offboarding runbooks
+                — user attributes, group deltas, sign-in block, session revoke,
+                and optional license reclaim.
+              </p>
+              <span class="service-meta">Typical license: Entra ID Free+ (P1+ when paired with dynamic groups)</span>
+            </div>
+          </li>
+          <li id="license-groups">
+            <h3>License groups &amp; audit</h3>
+            <div>
+              <p>
+                License-driven group maintenance: attribute gap audit and
+                SKU-linked static group membership so entitlements match the
+                people who need them.
+              </p>
+              <span class="service-meta">Typical license: Entra ID Free+ (P1+ when feeding dynamic groups)</span>
+            </div>
+          </li>
+          <li id="intune">
+            <h3>Intune / device foundations</h3>
+            <div>
+              <p>
+                Intune discovery and tenant foundation scaffolding — compliance
+                and configuration baselines, enrollment patterns, and Windows
+                device readiness as licensed.
+              </p>
+              <span class="service-meta">Typical license: Microsoft Intune / M365 E3+</span>
+            </div>
+          </li>
+          <li id="sso">
+            <h3>SSO &amp; enterprise apps</h3>
+            <div>
+              <p>
+                Enterprise application / service principal inventory and
+                Conditional Access readiness notes. Deeper CA work continues
+                beyond the current scaffold.
+              </p>
+              <span class="service-meta">Typical license: Entra ID P1 for many Conditional Access features</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <div class="cta-band">
+        <div class="cta-band-inner">
+          <div>
+            <h2>Fixed-fee scopes, not open-ended hours</h2>
+            <p>See how engagements are framed before any work starts.</p>
+          </div>
+          <div class="cta-row">
+            <a class="button button-primary" href="pricing.html">How we work</a>
+            <a class="button button-outline" href="contact.html">Talk to us</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>© Halo Switch / Jeff Dejaegher</span>
+        <span>
+          <a href="https://github.com/jeffdejaegher-oss/halo-switch">Open toolkit on GitHub</a>
+          ·
+          <a href="contact.html">Contact</a>
+        </span>
+      </div>
+    </footer>
+    <script src="assets/site.js"></script>
+  </body>
+</html>
