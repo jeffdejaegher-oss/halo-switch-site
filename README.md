@@ -7,7 +7,7 @@ Static consulting site for Halo Switch (no build step, no live Graph, no secrets
 | File | Purpose |
 |------|---------|
 | `index.html` | Landing (black / condensed mock) |
-| `services.html` | Workstreams the toolkit actually covers |
+| `services.html` | Offers (migration + new tenant) and delivery capabilities |
 | `pricing.html` | Fixed-fee framing (no invented dollar amounts) |
 | `contact.html` | Contact / about |
 
