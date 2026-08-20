@@ -6,7 +6,7 @@
     <title>Contact — Halo Switch</title>
     <meta
       name="description"
-      content="Contact Halo Switch for fixed-fee Google Workspace to Microsoft 365 migrations or new Microsoft 365 tenant configuration."
+      content="Start a conversation about Microsoft 365 tenant setup, security hardening, device management, or migration from Google Workspace."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,7 +34,7 @@
         <nav id="site-nav" class="site-nav" aria-label="Primary">
           <a href="services.html">Work</a>
           <span class="nav-sep" aria-hidden="true">/</span>
-          <a href="pricing.html">Pricing</a>
+          <a href="pricing.html">How we work</a>
           <span class="nav-sep" aria-hidden="true">/</span>
           <a href="contact.html" aria-current="page">Contact</a>
         </nav>
@@ -43,42 +43,107 @@
 
     <main id="main">
       <header class="page-hero">
-        <h1>Talk to us</h1>
+        <h1>Start a conversation</h1>
         <p>
-          Halo Switch is Jeff Dejaegher’s Microsoft 365 consulting practice —
-          Google Workspace migrations and new tenant configuration for small,
-          mid, and large organizations, delivered with license-driven automation.
+          Halo Switch is Jeff Dejaegher's Microsoft 365 practice. Tell me
+          roughly where things stand and I will come back with whether this is
+          a fit and what it would take.
         </p>
       </header>
 
       <section class="section contact-block">
+        <!--
+          SETUP: replace YOUR_FORM_ID below with the form id from formspree.io.
+          Create a free form, copy the endpoint it gives you, and paste the id.
+          Until that is done this form will not deliver anything.
+        -->
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/YOUR_FORM_ID"
+          method="POST"
+        >
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+
+          <div class="field">
+            <label for="organization">Organization</label>
+            <input id="organization" name="organization" type="text" autocomplete="organization" required />
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="phone">Phone <span class="optional">optional</span></label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="staff">Staff count</label>
+              <select id="staff" name="staff">
+                <option value="under-25">Under 25</option>
+                <option value="25-75">25–75</option>
+                <option value="75-150">75–150</option>
+                <option value="150-300">150–300</option>
+                <option value="over-300">Over 300</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="platform">Currently on</label>
+              <select id="platform" name="platform">
+                <option value="microsoft-365">Microsoft 365</option>
+                <option value="google-workspace">Google Workspace</option>
+                <option value="mixed">A bit of both</option>
+                <option value="unsure">Not sure</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">What is prompting this?</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="An insurance questionnaire, a risk assessment, a security incident, growth, or something else entirely."
+              required
+            ></textarea>
+          </div>
+
+          <input type="hidden" name="_subject" value="Halo Switch enquiry" />
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp" />
+
+          <button class="button button-outline" type="submit">Send</button>
+
+          <p class="form-note">
+            Please do not include passwords, tenant credentials, or any patient
+            information in this form.
+          </p>
+        </form>
+      </section>
+
+      <section class="section contact-block">
         <dl>
           <div>
-            <dt>Consulting inquiries</dt>
+            <dt>What happens next</dt>
             <dd>
-              Reach Jeff Dejaegher via the
-              <a href="https://github.com/jeffdejaegher-oss">jeffdejaegher-oss</a>
-              GitHub organization, or open a conversation from the
-              <a href="https://github.com/jeffdejaegher-oss/halo-switch">halo-switch</a>
-              repository. No secrets or tenant credentials in email or issues.
+              A reply within one business day, then a short call to work out
+              whether this is a fit. If it is, you get a written fixed-fee
+              scope before anything is touched.
             </dd>
           </div>
           <div>
-            <dt>Open toolkit</dt>
+            <dt>Useful to mention</dt>
             <dd>
-              The PowerShell + Graph scaffolds used in engagements live in this
-              repository. Clone, run offline Pester tests, and review
-              <a href="https://github.com/jeffdejaegher-oss/halo-switch/blob/main/docs/PROJECT_PLAN.md">docs/PROJECT_PLAN.md</a>
-              before any live tenant work.
-            </dd>
-          </div>
-          <div>
-            <dt>What to bring</dt>
-            <dd>
-              Whether you are migrating from Google Workspace or standing up a
-              new Microsoft 365 tenant, approximate organization size, and which
-              Microsoft licenses (Entra P1/P2, Intune, and related SKUs) you
-              already own. Discovery fills the rest.
+              Which Microsoft licences you already pay for, how laptops are
+              handled today, and whether anything external — an insurer, an
+              audit, a client contract — is driving the timeline.
             </dd>
           </div>
         </dl>
@@ -89,7 +154,7 @@
       <div class="footer-inner">
         <span>© Halo Switch / Jeff Dejaegher</span>
         <span>
-          <a href="https://github.com/jeffdejaegher-oss/halo-switch">Open toolkit on GitHub</a>
+          <a href="services.html">Work</a>
           ·
           <a href="index.html">Home</a>
         </span>

@@ -6,7 +6,7 @@
     <title>Work — Halo Switch</title>
     <meta
       name="description"
-      content="Halo Switch offers: Google Workspace to Microsoft 365 migrations and new Microsoft 365 tenant configuration, delivered with license-driven automation."
+      content="Microsoft 365 tenant setup, security hardening, device management, and Google Workspace migration for clinics and regulated businesses."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,7 +34,7 @@
         <nav id="site-nav" class="site-nav" aria-label="Primary">
           <a href="services.html" aria-current="page">Work</a>
           <span class="nav-sep" aria-hidden="true">/</span>
-          <a href="pricing.html">Pricing</a>
+          <a href="pricing.html">How we work</a>
           <span class="nav-sep" aria-hidden="true">/</span>
           <a href="contact.html">Contact</a>
         </nav>
@@ -43,40 +43,90 @@
 
     <main id="main">
       <header class="page-hero">
-        <h1>What we sell</h1>
+        <h1>What we do</h1>
         <p>
-          Two fixed-fee offers for organizations of any size — small, mid, and
-          large. Healthcare and other regulated industries are examples of where
-          this work shows up, not the brand.
+          Microsoft 365 configured the way a regulated organization needs it:
+          identity locked down, devices managed, evidence you can hand to an
+          auditor. Built around clinics, useful to any business that keeps
+          sensitive records.
         </p>
       </header>
 
       <section class="section" aria-labelledby="offers-heading">
-        <h2 id="offers-heading">Offers</h2>
+        <h2 id="offers-heading">Engagements</h2>
         <p class="section-intro">
-          Engagements are scoped to one of these outcomes. Automation in the
-          Halo Switch toolkit is how delivery stays license-mapped and auditable.
+          Each engagement is one fixed-fee outcome. Most organizations start
+          with the foundation and add from there.
         </p>
         <ul class="service-list">
+          <li id="foundation">
+            <h3>Tenant foundation</h3>
+            <div>
+              <p>
+                The core build. Break-glass admin accounts, multi-factor
+                authentication for everyone, legacy sign-in protocols closed,
+                Conditional Access rolled out in report-only before it is
+                enforced, licence groups that follow department rather than a
+                spreadsheet, joiner and leaver procedures, mail protection, and
+                backup. Delivered on Business Premium or E3 — the same build
+                either way.
+              </p>
+              <span class="service-meta">Typical: 4–8 weeks, fixed fee</span>
+            </div>
+          </li>
+          <li id="devices">
+            <h3>Device management</h3>
+            <div>
+              <p>
+                Laptops encrypted and enrolled from the box, shared exam-room
+                and front-desk workstations that staff can sign in and out of
+                cleanly, personal phones covered by app protection without
+                taking control of the phone, and a lost device dealt with the
+                hour it goes missing. Existing unmanaged machines get a
+                staged path in rather than a wipe.
+              </p>
+              <span class="service-meta">Typical licence: Microsoft Intune, included in Business Premium and E3</span>
+            </div>
+          </li>
+          <li id="advanced-security">
+            <h3>Advanced security uplift</h3>
+            <div>
+              <p>
+                For organizations on E5 or moving to it: risk-based sign-in
+                policy, phishing-resistant credentials for administrators,
+                just-in-time privileged access instead of standing admin
+                rights, retention and audit through Purview, and a security
+                monitoring pipeline. Layered onto an existing foundation, not a
+                rebuild.
+              </p>
+              <span class="service-meta">Requires Microsoft 365 E5</span>
+            </div>
+          </li>
           <li id="migration">
             <h3>Google Workspace → Microsoft&nbsp;365</h3>
             <div>
               <p>
-                Migrate from Google Workspace into Microsoft 365 with a clear
-                cutover plan: identity, mail, and collaboration foundations
-                aligned to the licenses you own — dry-runnable before production.
+                Move mail, files, and identity onto Microsoft 365 with a dated
+                cutover plan, and the security baseline configured on the way
+                in rather than bolted on a year later. Scoped separately from
+                the foundation because the effort depends on what is in the
+                old tenant.
               </p>
+              <span class="service-meta">Scoped per engagement</span>
             </div>
           </li>
-          <li id="tenant-config">
-            <h3>New Microsoft&nbsp;365 tenant configuration</h3>
+          <li id="care">
+            <h3>Ongoing care</h3>
             <div>
               <p>
-                Configure a new Microsoft 365 tenant from the ground up —
-                domains, SKUs, admin roles, identity baselines, and the first
-                wave of groups and device readiness so the tenant is usable on
-                day one.
+                A monthly plan for the work that never finishes: onboarding and
+                offboarding staff, watching for configuration drift, reviewing
+                who holds administrative rights, checking that backups and
+                device compliance are still healthy, and handling the awkward
+                situations — the travelling clinician, the locum, the compromised
+                mailbox.
               </p>
+              <span class="service-meta">Monthly, sized to headcount</span>
             </div>
           </li>
         </ul>
@@ -85,63 +135,53 @@
       <section class="section" id="how-we-deliver" aria-labelledby="delivery-heading">
         <h2 id="delivery-heading">How the work gets done</h2>
         <p class="section-intro">
-          These are delivery capabilities inside migration and tenant engagements
-          — not separate product names on the shelf.
+          The delivery method is the product. These are the habits that keep a
+          live tenant from breaking while it is being changed.
         </p>
         <ul class="service-list">
-          <li id="dynamic-groups">
-            <h3>Dynamic Groups</h3>
+          <li>
+            <h3>Rehearsed first</h3>
             <div>
               <p>
-                Create and audit Entra dynamic membership rules (department,
-                country, job title patterns) so access stays aligned as the
-                organization changes.
+                Every change runs as a dry-run against your real tenant and
+                reports exactly what it would do. Nothing is written until that
+                output has been read. Access policy lands in report-only mode
+                first, so you can see who it would have blocked before it
+                blocks anyone.
               </p>
-              <span class="service-meta">Typical license: Entra ID P1+</span>
             </div>
           </li>
-          <li id="lifecycle">
-            <h3>Lifecycle (joiner / mover / leaver)</h3>
+          <li>
+            <h3>Nobody gets locked out</h3>
             <div>
               <p>
-                Scripted onboarding, role-change mover, and offboarding runbooks
-                — user attributes, group deltas, sign-in block, session revoke,
-                and optional license reclaim.
+                Break-glass accounts are created and tested before access
+                policy is switched on, and are deliberately excluded from it.
+                Lockout recovery is a written procedure, not an improvisation
+                at seven in the morning.
               </p>
-              <span class="service-meta">Typical license: Entra ID Free+ (P1+ when paired with dynamic groups)</span>
             </div>
           </li>
-          <li id="license-groups">
-            <h3>License groups &amp; audit</h3>
+          <li>
+            <h3>Licences drive access</h3>
             <div>
               <p>
-                License-driven group maintenance: attribute gap audit and
-                SKU-linked static group membership so entitlements match the
-                people who need them.
+                Groups are built from staff attributes — department, role, site
+                — so access and licences follow people as they join, move, and
+                leave. A mixed estate of full and frontline licences is normal
+                and handled.
               </p>
-              <span class="service-meta">Typical license: Entra ID Free+ (P1+ when feeding dynamic groups)</span>
             </div>
           </li>
-          <li id="intune">
-            <h3>Intune / device foundations</h3>
+          <li>
+            <h3>Evidence, not assurances</h3>
             <div>
               <p>
-                Intune discovery and tenant foundation scaffolding — compliance
-                and configuration baselines, enrollment patterns, and Windows
-                device readiness as licensed.
+                Each engagement ends with a handover pack: what was configured,
+                what was deliberately left off, where the recovery keys live,
+                and the runbooks for day-to-day operations. It is written to
+                survive you replacing me.
               </p>
-              <span class="service-meta">Typical license: Microsoft Intune / M365 E3+</span>
-            </div>
-          </li>
-          <li id="sso">
-            <h3>SSO &amp; Conditional Access readiness</h3>
-            <div>
-              <p>
-                Enterprise application / service principal inventory and
-                Conditional Access readiness notes. Deeper CA work continues
-                beyond the current scaffold.
-              </p>
-              <span class="service-meta">Typical license: Entra ID P1 for many Conditional Access features</span>
             </div>
           </li>
         </ul>
@@ -151,11 +191,11 @@
         <div class="cta-band-inner">
           <div>
             <h2>Fixed-fee scopes, not open-ended hours</h2>
-            <p>See how migration and tenant engagements are framed.</p>
+            <p>Start with a short discovery call and a written scope.</p>
           </div>
           <div class="cta-row">
             <a class="button button-outline" href="pricing.html">How we work</a>
-            <a class="button button-outline" href="contact.html">Talk to us</a>
+            <a class="button button-outline" href="contact.html">Start a conversation</a>
           </div>
         </div>
       </div>
@@ -165,7 +205,7 @@
       <div class="footer-inner">
         <span>© Halo Switch / Jeff Dejaegher</span>
         <span>
-          <a href="https://github.com/jeffdejaegher-oss/halo-switch">Open toolkit on GitHub</a>
+          <a href="pricing.html">How we work</a>
           ·
           <a href="contact.html">Contact</a>
         </span>
