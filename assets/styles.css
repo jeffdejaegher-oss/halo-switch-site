@@ -684,6 +684,34 @@ a:hover {
   opacity: 0;
 }
 
+.contact-wallpaper {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-color: #000;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("contact-dc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contact .site-header,
+.contact main,
+.contact .site-footer {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 900px) {
+  .contact-wallpaper {
+    background-attachment: scroll;
+  }
+}
+
 .form-note {
   margin: 0;
   color: var(--ink-faint);
