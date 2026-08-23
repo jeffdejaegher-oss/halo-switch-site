@@ -201,7 +201,7 @@ a:hover {
 
 .hero-mark {
   width: 100%;
-  max-width: var(--max);
+  max-width: 48rem;
   min-width: 0;
   margin-inline: auto;
   overflow: hidden;
