@@ -695,7 +695,7 @@ a:hover {
   z-index: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.35)),
+    linear-gradient(rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.55)),
     url("contact-forest.jpg");
   background-size: cover;
   background-position: center;
