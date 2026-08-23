@@ -189,31 +189,37 @@ a:hover {
 }
 
 .hero-brand {
-  max-width: none;
+  max-width: var(--max);
   width: 100%;
-  grid-template-columns: 1fr;
+  min-width: 0;
+  box-sizing: border-box;
+  grid-template-columns: minmax(0, 1fr);
   gap: 0;
-  padding: 0 0 clamp(2.5rem, 6vw, 4rem);
+  padding: 0 var(--space) clamp(2.5rem, 6vw, 4rem);
   justify-items: center;
 }
 
 .hero-mark {
   width: 100%;
+  min-width: 0;
+  overflow: hidden;
   background: #000;
 }
 
 .hero-mark img {
+  display: block;
   width: 75%;
-  max-width: 67.5rem;
+  max-width: 100%;
   height: auto;
   margin: 0 auto;
   object-fit: contain;
 }
 
 .hero-brand .hero-copy {
-  max-width: var(--max);
+  max-width: 100%;
   width: 100%;
-  padding: 1.25rem var(--space) 0;
+  min-width: 0;
+  padding: 1.25rem 0 0;
   text-align: center;
   display: flex;
   flex-direction: column;
