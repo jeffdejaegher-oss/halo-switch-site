@@ -203,8 +203,8 @@ a:hover {
 }
 
 .hero-mark img {
-  width: 100%;
-  max-width: 90rem;
+  width: 75%;
+  max-width: 67.5rem;
   height: auto;
   margin: 0 auto;
   object-fit: contain;
