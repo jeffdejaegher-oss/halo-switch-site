@@ -38,6 +38,7 @@ body {
 
 body.contact {
   background: transparent;
+  color: #111;
 }
 
 img,
@@ -694,8 +695,8 @@ a:hover {
   z-index: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.4)),
-    url("contact-dc.jpg");
+    linear-gradient(rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.35)),
+    url("contact-forest.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -707,6 +708,98 @@ a:hover {
   position: relative;
   z-index: 1;
   background: transparent;
+}
+
+.contact a,
+.contact .brand,
+.contact .brand-name,
+.contact .nav-toggle,
+.contact .site-nav a,
+.contact .site-nav a:hover,
+.contact .site-nav a[aria-current="page"],
+.contact .page-hero h1,
+.contact .contact-form label,
+.contact .contact-form input,
+.contact .contact-form select,
+.contact .contact-form textarea,
+.contact .contact-form button,
+.contact .button,
+.contact .button-outline,
+.contact .site-footer,
+.contact .footer-inner a:hover {
+  color: #111;
+}
+
+.contact .page-hero p,
+.contact .contact-block dd,
+.contact .contact-form .optional,
+.contact .form-note,
+.contact .site-nav a,
+.contact .site-nav .nav-sep,
+.contact .footer-inner,
+.contact .footer-inner a {
+  color: #333;
+}
+
+.contact .site-nav a:hover,
+.contact .site-nav a[aria-current="page"] {
+  color: #111;
+}
+
+.contact .nav-toggle {
+  border-color: #222;
+}
+
+.contact .contact-form {
+  border-top-color: #222;
+}
+
+.contact .contact-form input,
+.contact .contact-form select,
+.contact .contact-form textarea {
+  color: #111;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid #222;
+}
+
+.contact .contact-form select option {
+  background: #fff;
+  color: #111;
+}
+
+.contact .contact-form input::placeholder,
+.contact .contact-form textarea::placeholder {
+  color: #555;
+}
+
+.contact .contact-form input:focus,
+.contact .contact-form select:focus,
+.contact .contact-form textarea:focus {
+  border-color: #111;
+}
+
+.contact .button-outline,
+.contact .contact-form button {
+  color: #111;
+  border-color: #111;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.contact .button-outline:hover,
+.contact .contact-form button:hover {
+  background: #111;
+  color: #fff;
+}
+
+.contact .site-footer {
+  border-top-color: #222;
+}
+
+@media (max-width: 900px) {
+  .contact .site-nav {
+    background: rgba(255, 255, 255, 0.94);
+    border-color: #222;
+  }
 }
 
 .form-note {
