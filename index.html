@@ -8,6 +8,8 @@
       name="description"
       content="Companies buy Microsoft 365 licenses. Halo Switch turns them on — securely and correctly — in days. Buy the package and run it yourself, or have us do it for you."
     />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,7 +29,7 @@
           Menu
         </button>
         <nav id="site-nav" class="site-nav" aria-label="Primary">
-          <a href="services.html">HALOSWITCH</a>
+          <a class="nav-product" href="services.html">HALOSWITCH</a>
           <span class="nav-sep" aria-hidden="true">/</span>
           <a href="pricing.html">How it works</a>
           <span class="nav-sep" aria-hidden="true">/</span>
@@ -39,7 +41,7 @@
     </header>
 
     <main id="main">
-      <section class="hero hero-brand" aria-labelledby="hero-title">
+      <section class="hero" aria-labelledby="hero-title">
         <div class="hero-mark">
           <img src="assets/haloswitch-hero.jpg" alt="HALOSWITCH" />
         </div>
@@ -56,29 +58,32 @@
         </div>
       </section>
 
-      <section class="services-strip" aria-label="Honest difference">
-        <div class="services-strip-inner">
-          <article class="service-card">
-            <h2>Licenses you already own</h2>
-            <p>Built for the licenses you already own.</p>
-          </article>
-          <article class="service-card">
-            <h2>Not six months</h2>
+      <section class="honesty" aria-label="What this is">
+        <ol class="honesty-list">
+          <li>
+            <span class="honesty-index" aria-hidden="true">01</span>
+            <h2>Already paid for</h2>
+            <p>Built for the Microsoft 365 licenses you already own.</p>
+          </li>
+          <li>
+            <span class="honesty-index" aria-hidden="true">02</span>
+            <h2>Days, not a project</h2>
             <p>Not a six-month admin engagement.</p>
-          </article>
-          <article class="service-card">
-            <h2>Not a menu</h2>
+          </li>
+          <li>
+            <span class="honesty-index" aria-hidden="true">03</span>
+            <h2>One job</h2>
             <p>Not a menu of upsells.</p>
-          </article>
-        </div>
+          </li>
+        </ol>
       </section>
+
+      <div class="who-band">
+        <p class="who-line">For companies and MSPs.</p>
+      </div>
 
       <div class="cta-band">
         <div class="cta-band-inner">
-          <div>
-            <h2>Halo Switch is the company. HALOSWITCH is the software package.</h2>
-            <p>Turn Microsoft 365 licenses on — securely and correctly — in days.</p>
-          </div>
           <div class="cta-row">
             <a class="button button-outline" href="services.html">HALOSWITCH</a>
             <a class="button button-outline" href="contact.html">Start a conversation</a>
@@ -91,7 +96,7 @@
       <div class="footer-inner">
         <span>© Halo Switch / Jeff DeJaegher</span>
         <span>
-          <a href="services.html">HALOSWITCH</a>
+          <a class="footer-product" href="services.html">HALOSWITCH</a>
           ·
           <a href="about.html">About</a>
           ·
