@@ -172,7 +172,7 @@ a:hover {
   max-width: var(--max);
   width: 100%;
   margin: 0 auto;
-  padding: 0.5rem var(--space) clamp(2.75rem, 6vw, 4rem);
+  padding: 0 var(--space) clamp(2.25rem, 5vw, 3.25rem);
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   justify-items: center;
@@ -359,7 +359,7 @@ a:hover {
 }
 
 .who-band {
-  padding: 0 var(--space) clamp(2.25rem, 5vw, 3.25rem);
+  padding: 0 var(--space) 1.75rem;
 }
 
 .who-line {
@@ -371,7 +371,7 @@ a:hover {
 }
 
 .cta-band {
-  padding: 0 var(--space) clamp(3.25rem, 7vw, 5rem);
+  padding: 0 var(--space) clamp(2.5rem, 5vw, 3.75rem);
 }
 
 .cta-band-inner {
@@ -425,7 +425,7 @@ a:hover {
 }
 
 .section:last-of-type {
-  padding-bottom: clamp(2.5rem, 6vw, 3.5rem);
+  padding-bottom: 1.25rem;
 }
 
 .section h2 {
