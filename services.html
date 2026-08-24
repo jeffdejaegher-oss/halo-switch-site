@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Work — Halo Switch</title>
+    <title>Foundation — Halo Switch</title>
     <meta
       name="description"
-      content="Microsoft 365 tenant setup, security hardening, and device management for small, mid, and large companies."
+      content="Foundation is the Halo Switch software package: the first-slice Microsoft 365 tenant build, applied in one unattended push."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,9 +32,9 @@
           Menu
         </button>
         <nav id="site-nav" class="site-nav" aria-label="Primary">
-          <a href="services.html" aria-current="page">Work</a>
+          <a href="services.html" aria-current="page">Foundation</a>
           <span class="nav-sep" aria-hidden="true">/</span>
-          <a href="pricing.html">How we work</a>
+          <a href="pricing.html">How it works</a>
           <span class="nav-sep" aria-hidden="true">/</span>
           <a href="about.html">About</a>
           <span class="nav-sep" aria-hidden="true">/</span>
@@ -45,36 +45,113 @@
 
     <main id="main">
       <header class="page-hero">
-        <h1>What we do</h1>
+        <h1>Foundation</h1>
         <p>
-          New Microsoft 365 tenant setup and hardening for small, mid, and
-          large companies: identity locked down, devices managed, evidence
-          you can hand to an auditor.
+          The software package. It applies the first-slice Microsoft 365
+          tenant build in one unattended push. One company tenant or a
+          stack of MSP tenants — same package.
         </p>
       </header>
 
-      <section class="section" aria-labelledby="offers-heading">
-        <h2 id="offers-heading">Engagements</h2>
+      <section class="section" aria-labelledby="package-heading">
+        <h2 id="package-heading">What the package applies</h2>
         <p class="section-intro">
-          Each engagement is one fixed-fee outcome. Most organizations start
-          with the foundation and add from there.
+          The first-slice build. Identity locked down, licences assigned
+          from groups, and a tenant you can operate the next morning.
         </p>
         <ul class="service-list">
           <li id="foundation">
-            <h3>Tenant setup</h3>
+            <h3>The first slice</h3>
             <div>
               <p>
-                The core build. Break-glass admin accounts, multi-factor
-                authentication for everyone, legacy sign-in protocols closed,
-                Conditional Access rolled out in report-only before it is
-                enforced, licence groups that follow department rather than a
-                spreadsheet, joiner and leaver procedures, mail protection, and
-                backup. Delivered on Business Premium or E3 — the same build
-                either way.
+                Break-glass admin accounts, multi-factor authentication
+                for everyone, legacy sign-in protocols closed, Conditional
+                Access rolled out in report-only before it is enforced,
+                licence groups that follow department rather than a
+                spreadsheet, joiner and leaver procedures, mail
+                protection, and backup. Built for Business Premium or
+                E3 — the same build either way.
               </p>
-              <span class="service-meta">Typical: 4–8 weeks, fixed fee</span>
+              <span class="service-meta">One push, after the tenant, admins, and SKUs exist</span>
             </div>
           </li>
+          <li id="push">
+            <h3>The push</h3>
+            <div>
+              <p>
+                You create the new Microsoft tenant, create the admin
+                accounts, and order the SKUs. Foundation does the rest
+                unattended. Dry-run first, against the real tenant, with
+                a log of what it would change before anything is written.
+              </p>
+              <span class="service-meta">The human front is on purpose. The product is the push.</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="how-we-deliver" aria-labelledby="delivery-heading">
+        <h2 id="delivery-heading">How the package runs</h2>
+        <p class="section-intro">
+          Product habits. They keep a live tenant from breaking while it
+          is being changed.
+        </p>
+        <ul class="service-list">
+          <li>
+            <h3>Rehearsed first</h3>
+            <div>
+              <p>
+                Every change runs as a dry-run against the tenant and
+                reports exactly what it would do. Nothing is written until
+                that output has been read. Access policy lands in
+                report-only mode first, so you can see who it would have
+                blocked before it blocks anyone.
+              </p>
+            </div>
+          </li>
+          <li>
+            <h3>Nobody gets locked out</h3>
+            <div>
+              <p>
+                Break-glass accounts are created and tested before access
+                policy is switched on, and are deliberately excluded from
+                it. Lockout recovery is a written procedure, not an
+                improvisation at seven in the morning.
+              </p>
+            </div>
+          </li>
+          <li>
+            <h3>Licences drive access</h3>
+            <div>
+              <p>
+                Groups are built from staff attributes — department, role,
+                site — so access and licences follow people as they join,
+                move, and leave. A mixed estate of full and frontline
+                licences is normal and handled.
+              </p>
+            </div>
+          </li>
+          <li>
+            <h3>Evidence, not assurances</h3>
+            <div>
+              <p>
+                The package leaves a record: what was configured, what was
+                deliberately left off, where the recovery keys live, and
+                the runbooks for day-to-day operations. Written to survive
+                the next person who owns the tenant.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" aria-labelledby="optional-heading">
+        <h2 id="optional-heading">Optional consulting</h2>
+        <p class="section-intro">
+          A person on the work, if you want one. Not required to buy or
+          run Foundation.
+        </p>
+        <ul class="service-list">
           <li id="devices">
             <h3>Device management</h3>
             <div>
@@ -97,8 +174,8 @@
                 policy, phishing-resistant credentials for administrators,
                 just-in-time privileged access instead of standing admin
                 rights, retention and audit through Purview, and a security
-                monitoring pipeline. Layered onto an existing foundation, not a
-                rebuild.
+                monitoring pipeline. Layered onto an existing foundation,
+                not a rebuild.
               </p>
               <span class="service-meta">Requires Microsoft 365 E5</span>
             </div>
@@ -107,12 +184,10 @@
             <h3>Ongoing care</h3>
             <div>
               <p>
-                A monthly plan for the work that never finishes: onboarding and
-                offboarding staff, watching for configuration drift, reviewing
-                who holds administrative rights, checking that backups and
-                device compliance are still healthy, and handling the awkward
-                situations — the travelling clinician, the locum, the compromised
-                mailbox.
+                A monthly plan for the work that never finishes: onboarding
+                and offboarding staff, watching for configuration drift,
+                reviewing who holds administrative rights, and checking
+                that backups and device compliance are still healthy.
               </p>
               <span class="service-meta">Monthly, sized to headcount</span>
             </div>
@@ -124,70 +199,15 @@
         </p>
       </section>
 
-      <section class="section" id="how-we-deliver" aria-labelledby="delivery-heading">
-        <h2 id="delivery-heading">How the work gets done</h2>
-        <p class="section-intro">
-          The delivery method is the product. These are the habits that keep a
-          live tenant from breaking while it is being changed.
-        </p>
-        <ul class="service-list">
-          <li>
-            <h3>Rehearsed first</h3>
-            <div>
-              <p>
-                Every change runs as a dry-run against your real tenant and
-                reports exactly what it would do. Nothing is written until that
-                output has been read. Access policy lands in report-only mode
-                first, so you can see who it would have blocked before it
-                blocks anyone.
-              </p>
-            </div>
-          </li>
-          <li>
-            <h3>Nobody gets locked out</h3>
-            <div>
-              <p>
-                Break-glass accounts are created and tested before access
-                policy is switched on, and are deliberately excluded from it.
-                Lockout recovery is a written procedure, not an improvisation
-                at seven in the morning.
-              </p>
-            </div>
-          </li>
-          <li>
-            <h3>Licences drive access</h3>
-            <div>
-              <p>
-                Groups are built from staff attributes — department, role, site
-                — so access and licences follow people as they join, move, and
-                leave. A mixed estate of full and frontline licences is normal
-                and handled.
-              </p>
-            </div>
-          </li>
-          <li>
-            <h3>Evidence, not assurances</h3>
-            <div>
-              <p>
-                Each engagement ends with a handover pack: what was configured,
-                what was deliberately left off, where the recovery keys live,
-                and the runbooks for day-to-day operations. It is written to
-                survive you replacing me.
-              </p>
-            </div>
-          </li>
-        </ul>
-      </section>
-
       <div class="cta-band">
         <div class="cta-band-inner">
           <div>
-            <h2>Fixed-fee scopes, not open-ended hours</h2>
-            <p>Start with a short discovery call and a written scope.</p>
+            <h2>One product. One tenant or many.</h2>
+            <p>Company IT lead or MSP. Same package.</p>
           </div>
           <div class="cta-row">
-            <a class="button button-outline" href="pricing.html">How we work</a>
-            <a class="button button-outline" href="contact.html">Start a conversation</a>
+            <a class="button button-outline" href="pricing.html">How it works</a>
+            <a class="button button-outline" href="contact.html">Ask about Foundation</a>
           </div>
         </div>
       </div>
@@ -197,7 +217,7 @@
       <div class="footer-inner">
         <span>© Halo Switch / Jeff DeJaegher</span>
         <span>
-          <a href="pricing.html">How we work</a>
+          <a href="pricing.html">How it works</a>
           ·
           <a href="about.html">About</a>
           ·
