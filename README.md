@@ -2,8 +2,6 @@
 
 Static marketing site for Halo Switch (no build step, no live Graph, no secrets).
 
-Halo Switch is the company. HALOSWITCH is the software package. Never “The HaloSwitch”.
-
 ## Public lead
 
 Use this copy as the lead on every page. Do not contradict it.
@@ -16,12 +14,14 @@ Supporting honesty still ok:
 - Not a six-month admin engagement.
 - Not a menu of upsells.
 
+Audience: companies and MSPs. Not healthcare-only.
+
 ## Pages
 
 | File | Purpose |
 |------|---------|
 | `index.html` | Landing — splash plus the public lead |
-| `services.html` | HALOSWITCH — the software package |
+| `services.html` | HALOSWITCH |
 | `pricing.html` | How it works |
 | `about.html` | Jeff DeJaegher and Halo Switch |
 | `contact.html` | Enquiry form |
@@ -42,11 +42,11 @@ Open `http://127.0.0.1:8080/`, or open `index.html` directly in a browser — re
 
 The site is published from this **public** repository, `halo-switch-site`, served by GitHub Pages from the repository root.
 
-## Design lock (landing)
+## Design lock
 
-- Full black canvas (`#000000`), white type, optional sparse red accent (`#E31937`)
-- Keep the existing HALOSWITCH splash
-- Huge condensed headline, small-caps nav (`HALOSWITCH / HOW IT WORKS / ABOUT / CONTACT`), outline CTAs
-- No Foundation / house / add-on-menu language
-- Not healthcare-only. Not a services shop hero
+- Full black canvas (`#000000`), white type, sparse red accent (`#E31937`)
+- Keep the existing HALOSWITCH splash, without a baked-in tagline
+- Brand reads Halo Switch (title case). Product reads HALOSWITCH
+- Nav: `HALOSWITCH / How it works / About / Contact`
+- Outline CTAs
 - No rounded SaaS cards, no teal/purple, no fake testimonials
