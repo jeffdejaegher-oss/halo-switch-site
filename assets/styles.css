@@ -270,14 +270,14 @@ a:hover {
 }
 
 .hero-brand h1 {
-  max-width: 22ch;
+  max-width: 24ch;
   text-align: center;
   font-size: clamp(1.85rem, 5.2vw, 3.25rem);
   line-height: 0.95;
 }
 
 .hero-brand .hero-lede {
-  max-width: 42ch;
+  max-width: 46ch;
 }
 
 .hero-lede {
