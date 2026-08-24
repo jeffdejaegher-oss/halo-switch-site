@@ -477,7 +477,7 @@ a:hover {
 
 .page-hero p {
   margin: 0;
-  max-width: 48ch;
+  max-width: 56ch;
   color: var(--ink-muted);
   font-size: 1.05rem;
 }
