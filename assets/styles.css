@@ -269,6 +269,17 @@ a:hover {
   max-width: 12ch;
 }
 
+.hero-brand h1 {
+  max-width: 22ch;
+  text-align: center;
+  font-size: clamp(1.85rem, 5.2vw, 3.25rem);
+  line-height: 0.95;
+}
+
+.hero-brand .hero-lede {
+  max-width: 42ch;
+}
+
 .hero-lede {
   margin: 0 0 2.25rem;
   font-size: clamp(1rem, 1.5vw, 1.15rem);
@@ -731,6 +742,7 @@ a:hover {
 }
 
 .contact .page-hero p,
+.contact .section-intro,
 .contact .contact-block dd,
 .contact .contact-form .optional,
 .contact .form-note,
