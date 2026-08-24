@@ -2,26 +2,26 @@
 
 Static marketing site for Halo Switch (no build step, no live Graph, no secrets).
 
-Halo Switch is the company. HALOSWITCH is the software. Never “The HaloSwitch”.
+Halo Switch is the company. HALOSWITCH is the software package. Never “The HaloSwitch”.
 
-## Locked public story
+## Public lead
 
-Use this copy on every page. Do not add parentheticals.
+Use this copy as the lead on every page. Do not contradict it.
 
-Halo Switch builds a complete Microsoft 365 tenant the same day.
+Companies buy Microsoft 365 licenses. Halo Switch turns them on — securely and correctly — in days. Buy the package and run it yourself, or have us do it for you.
 
-You handle the few steps Microsoft still requires a human to do. HALOSWITCH writes and applies everything else.
+Supporting honesty still ok:
 
-Honest difference: it’s built strictly for the licenses you already own.
-Not a six-month admin engagement.
-Not a menu of upsells.
+- Built for the licenses you already own.
+- Not a six-month admin engagement.
+- Not a menu of upsells.
 
 ## Pages
 
 | File | Purpose |
 |------|---------|
-| `index.html` | Landing — splash plus the locked public story |
-| `services.html` | HALOSWITCH — the software |
+| `index.html` | Landing — splash plus the public lead |
+| `services.html` | HALOSWITCH — the software package |
 | `pricing.html` | How it works |
 | `about.html` | Jeff DeJaegher and Halo Switch |
 | `contact.html` | Enquiry form |
