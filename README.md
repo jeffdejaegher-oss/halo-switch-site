@@ -1,12 +1,14 @@
 # Halo Switch public site
 
-Static marketing site for Halo Switch (no build step, no live Graph, no secrets).
+Static marketing site for Halo Switch (no build step, no secrets).
 
 ## Public lead
 
-Use this copy as the lead on every page. Do not contradict it.
+Use this copy as the lead on the home hero. Do not contradict it.
 
-Companies buy Microsoft 365 licenses. Halo Switch turns them on — securely and correctly — in days. Buy the package and run it yourself, or have us do it for you.
+Companies buy Microsoft 365 licenses. Halo Switch turns them on — securely and correctly — in days.
+
+Commercial path: Halo Switch runs the apply. $3,500 per tenant. They do not get the kit.
 
 Supporting honesty still ok:
 
@@ -14,14 +16,18 @@ Supporting honesty still ok:
 - Not a six-month admin engagement.
 - Not a menu of upsells.
 
-Audience: companies and MSPs. Not healthcare-only.
+Audience: companies and MSPs. Not healthcare-only. Not MSP-only. Not a services shop.
+
+## Price
+
+The tenant price is on the HALOSWITCH page (`services.html`) as `$3,500 per tenant`. Home may repeat a short line. How it works may repeat the same line. Change that string when Jeff changes the number. Do not add a consulting week or a monthly platform fee.
 
 ## Pages
 
 | File | Purpose |
 |------|---------|
-| `index.html` | Landing — splash plus the public lead |
-| `services.html` | HALOSWITCH |
+| `index.html` | Landing — locked license-on hero plus a short HALOSWITCH path |
+| `services.html` | HALOSWITCH — On, Ready, price, we run the apply |
 | `pricing.html` | How it works |
 | `about.html` | Jeff DeJaegher and Halo Switch |
 | `contact.html` | Enquiry form |

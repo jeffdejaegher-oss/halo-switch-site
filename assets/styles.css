@@ -249,6 +249,18 @@ a:hover {
   max-width: 42ch;
 }
 
+.hero-path {
+  margin: -1.15rem 0 2rem;
+  font-size: 1.05rem;
+  color: var(--ink-lede);
+}
+
+.hero-path a {
+  letter-spacing: 0.14em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 .cta-row {
   display: flex;
   flex-wrap: wrap;
@@ -413,11 +425,31 @@ a:hover {
   margin-bottom: 0;
 }
 
-.page-hero .lede + .who-line {
+.page-hero .lede + .who-line,
+.page-hero .lede + .price-line {
   margin-top: 1.1rem;
   padding-top: 0;
   border-top: 0;
+}
+
+.page-hero .lede + .who-line {
   color: var(--ink-muted);
+}
+
+.price-line {
+  margin: 1.1rem 0 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.55rem, 3vw, 2rem);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.15;
+  color: var(--ink);
+}
+
+.apply-line {
+  margin: 0.5rem 0 0;
+  color: var(--ink-lede);
+  max-width: 42ch;
 }
 
 .section {
@@ -507,6 +539,22 @@ a:hover {
 .step-list p {
   color: var(--ink-lede);
   font-size: 1.08rem;
+}
+
+.feature-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11.5rem, 1fr));
+  column-gap: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.feature-list li {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-lede);
 }
 
 .not-list {
