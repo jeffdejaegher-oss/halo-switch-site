@@ -8,23 +8,25 @@ Use this copy as the lead on the home hero. Do not contradict it.
 
 Companies buy Microsoft 365 licenses. Halo Switch turns them on — securely and correctly — in days.
 
-HALOSWITCH is software. $3,500 per tenant. One tenant. The apply is how the software is delivered, not a second SKU. They do not get the kit.
+Halo Switch delivers the week-one job. HALOSWITCH stays in-house. The customer does not get the kit. This is a productized first week, not a software download and not a services menu.
+
+$8,000–$11,000 per tenant. One tenant.
 
 Supporting honesty still ok:
 
 - Built for the licenses you already own.
-- One tenant.
-- One product. Not a menu of upsells.
+- One tenant. HALOSWITCH stays in-house.
+- One product. A productized first week, not a software download and not a services menu.
 
 Audience: companies and MSPs. Not healthcare-only. Not MSP-only.
 
 ## Do not sell services
 
-Do not write Halo Switch as a services firm. Ban on the site: retainers, hourly, managed Microsoft 365, implementation project, services shop, services menu, "we run it for you" as a separate offer, consulting week, monthly platform fee.
+Do not write Halo Switch as a services firm. Ban on the site: retainers, hourly, managed Microsoft 365, implementation project, services shop, services menu, "we run it for you" as a separate offer, consulting week, monthly platform fee, kit zip, run-it-yourself download.
 
 ## Price
 
-The tenant price is on the HALOSWITCH page (`services.html`) as `$3,500 per tenant`. Home may repeat a short line. How it works may repeat the same line. Change that string when Jeff changes the number.
+The tenant price is on the HALOSWITCH page (`services.html`) as `$8,000–$11,000 per tenant`. Home may repeat a short line. How it works may repeat the same line. Change that string when Jeff changes the number.
 
 ## Pages
 
