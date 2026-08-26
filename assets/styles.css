@@ -172,7 +172,7 @@ a:hover {
   max-width: var(--max);
   width: 100%;
   margin: 0 auto;
-  padding: 0 var(--space) clamp(2.25rem, 5vw, 3.25rem);
+  padding: 0 var(--space) 0;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   justify-items: center;
@@ -237,28 +237,16 @@ a:hover {
 
 .hero-lede,
 .page-hero .lede {
-  margin: 0 0 2rem;
+  margin: 0 0 1.15rem;
   font-size: clamp(1.05rem, 1.5vw, 1.2rem);
   font-weight: 400;
   letter-spacing: 0.01em;
-  line-height: 1.5;
+  line-height: 1.45;
   color: var(--ink-lede);
 }
 
 .hero-lede {
-  max-width: 42ch;
-}
-
-.hero-path {
-  margin: -1.15rem 0 2rem;
-  font-size: 1.05rem;
-  color: var(--ink-lede);
-}
-
-.hero-path a {
-  letter-spacing: 0.14em;
-  font-weight: 600;
-  text-decoration: none;
+  max-width: 44ch;
 }
 
 .cta-row {
@@ -311,8 +299,7 @@ a:hover {
   outline-offset: 3px;
 }
 
-/* —— Honesty / who / close —— */
-.honesty,
+/* —— Who / close —— */
 .who-band,
 .cta-band,
 .section,
@@ -322,56 +309,8 @@ a:hover {
   margin: 0 auto;
 }
 
-.honesty {
-  border-top: 1px solid var(--line);
-  padding: clamp(2.5rem, 5vw, 3.75rem) var(--space);
-}
-
-.honesty-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(1.75rem, 3.5vw, 2.75rem);
-}
-
-.honesty-list li {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 0.15rem 0.85rem;
-}
-
-.honesty-index {
-  grid-row: 1 / span 2;
-  font-family: var(--font-display);
-  font-size: 0.95rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  color: var(--accent);
-  line-height: 1.2;
-  padding-top: 0.15rem;
-}
-
-.honesty-list h2 {
-  margin: 0;
-  font-family: var(--font-display);
-  font-size: clamp(1.35rem, 2vw, 1.7rem);
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  line-height: 1.15;
-  text-transform: none;
-}
-
-.honesty-list p {
-  margin: 0.35rem 0 0;
-  color: var(--ink-muted);
-  font-size: 0.98rem;
-  max-width: 28ch;
-}
-
 .who-band {
-  padding: 0 var(--space) 1.75rem;
+  padding: 2rem var(--space) clamp(2.25rem, 5vw, 3.25rem);
 }
 
 .who-line {
@@ -437,19 +376,21 @@ a:hover {
 }
 
 .price-line {
-  margin: 1.1rem 0 0;
+  margin: 0 0 1.35rem;
   font-family: var(--font-display);
-  font-size: clamp(1.55rem, 3vw, 2rem);
+  font-size: clamp(1.35rem, 2.6vw, 1.75rem);
   font-weight: 600;
   letter-spacing: 0.02em;
   line-height: 1.15;
   color: var(--ink);
 }
 
-.apply-line {
-  margin: 0.5rem 0 0;
-  color: var(--ink-lede);
-  max-width: 42ch;
+.page-hero .price-line {
+  margin: 1.1rem 0 0;
+}
+
+.hero .price-line {
+  margin: 0 0 1.5rem;
 }
 
 .section {
@@ -539,6 +480,18 @@ a:hover {
 .step-list p {
   color: var(--ink-lede);
   font-size: 1.08rem;
+}
+
+.lists-link {
+  margin: 1.25rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+
+.lists-link a {
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .feature-list {
@@ -746,11 +699,6 @@ a:hover {
 }
 
 @media (max-width: 900px) {
-  .honesty-list {
-    grid-template-columns: 1fr;
-    gap: 1.6rem;
-  }
-
   .split-list li,
   .bio-list li,
   .proof-list li {
