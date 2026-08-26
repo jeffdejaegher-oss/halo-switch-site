@@ -30,9 +30,9 @@ Ready = configured, not turned on yet.
 | `about.html` | Jeff DeJaegher and Halo Switch |
 | `contact.html` | Enquiry form |
 
-## Before this goes live: wire up the form
+## Contact form
 
-`contact.html` posts to Formspree. Create a free form at [formspree.io](https://formspree.io), then replace `YOUR_FORM_ID` in the form's `action` with the id it gives you. Until that is done the form will not deliver anything. Do not invent a Formspree id.
+`contact.html` posts to Formspree at `https://formspree.io/f/mbgjrgeq`.
 
 ## Preview locally
 
