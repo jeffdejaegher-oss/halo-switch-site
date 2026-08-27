@@ -6,27 +6,25 @@ Static marketing site for Halo Switch (no build step, no secrets).
 
 Use this copy as the lead on the home hero. Do not contradict it.
 
-Companies buy Microsoft 365 licenses. Halo Switch turns them on. You buy the licenses. We turn them on for you.
+Halo Switch. We flip the switch on Microsoft 365 Business Premium.
 
-Halo Switch is the company. HALOSWITCH is the software that gets applied. This is sold as a service: we turn it on. They do not get the kit.
+You buy the licenses. We turn them on.
 
-Price: $8,000–$11,000 per tenant. No retainers, no hourly menu, no managed-M365 SKU, no extra product menu.
+New tenant or current tenant.
+Cloud-based. AI-driven.
+Full tenant configuration in 24 hours.
 
-## On and Ready
+Halo Switch is the company. HALOSWITCH is the mark on the banner. Do not print those labels on the site.
 
-Two lists only. Two-word bullets. Exact strings. No extra words under them. They live on `services.html` only.
-
-On = configurations HALOSWITCH turns on.
-
-Ready = configured, not turned on yet.
+Do not put prices on the site.
 
 ## Pages
 
 | File | Purpose |
 |------|---------|
-| `index.html` | Landing — locked license-on hero, price, two CTAs |
-| `services.html` | HALOSWITCH — lede, price, On, Ready |
-| `pricing.html` | How it works — three beats, price once, link to the lists |
+| `index.html` | Landing — banner, locked lead, contact CTA |
+| `services.html` | HALOSWITCH — included / not included |
+| `pricing.html` | How it works — three beats |
 | `about.html` | Jeff DeJaegher and Halo Switch |
 | `contact.html` | Enquiry form |
 
@@ -49,8 +47,8 @@ The site is published from this **public** repository, `halo-switch-site`, serve
 ## Design lock
 
 - Full black canvas (`#000000`), white type, sparse red accent (`#e31937`)
-- Keep the existing HALOSWITCH splash, without a baked-in tagline
-- Brand reads Halo Switch (title case). Product reads HALOSWITCH
-- Nav: `HALOSWITCH / How it works / About / Contact`
+- Gray HALOSWITCH banner as the home hero mark, without a baked-in tagline
+- Brand reads Halo Switch (title case). Product mark reads HALOSWITCH
+- Nav: `Home / HALOSWITCH / How it works / About / Contact`
 - Outline CTAs
 - No rounded SaaS cards, no teal/purple, no fake testimonials
