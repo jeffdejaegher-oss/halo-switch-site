@@ -12,7 +12,7 @@ You buy the licenses. We turn them on.
 
 New tenant or current tenant.
 Cloud-based. AI-driven.
-Full tenant configuration in 24 hours.
+Full tenant configuration.
 
 Halo Switch is the company. HALOSWITCH is the mark on the banner. Do not print those labels on the site.
 
