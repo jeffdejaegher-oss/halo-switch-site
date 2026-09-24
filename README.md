@@ -1,54 +1,26 @@
-# Halo Switch public site
+# halo-switch-site (unpublished)
 
-Static marketing site for Halo Switch (no build step, no secrets).
+This public repository used to serve the old Halo Switch marketing site at
+`https://jeffdejaegher-oss.github.io/halo-switch-site/`.
 
-## Public lead
+Metis2 replaced that site. Marketing HTML and assets were removed so GitHub
+Pages no longer publishes that copy.
 
-Use this copy as the lead on the home hero. Do not contradict it.
+## GitHub Pages setting (needs a repo admin)
 
-Halo Switch. We flip the switch on Microsoft 365 Business Premium.
+The Pages REST API (`DELETE /repos/jeffdejaegher-oss/halo-switch-site/pages`)
+returns **403 Resource not accessible by integration** for the Cursor GitHub
+App token. Same for `gh workflow disable pages-build-deployment`.
 
-You buy the licenses. We turn them on.
+A repo **admin** should finish the takedown:
 
-New tenant or current tenant.
-Cloud-based. AI-driven.
-Full tenant configuration.
+1. Open https://github.com/jeffdejaegher-oss/halo-switch-site/settings/pages
+2. Turn GitHub Pages **off** (Unpublish / Remove site)
+3. Do not re-enable Pages for this repo
 
-Halo Switch is the company. HALOSWITCH is the mark on the banner. Do not print those labels on the site.
+There is no custom workflow under `.github/workflows`. The only Actions
+workflow is GitHub’s built-in `pages-build-deployment`, which exists only to
+publish Pages. It cannot be disabled without admin, and it should disappear
+once Pages is unpublished.
 
-Do not put prices on the site.
-
-## Pages
-
-| File | Purpose |
-|------|---------|
-| `index.html` | Landing — banner, locked lead, contact CTA |
-| `services.html` | HALOSWITCH — included / not included |
-| `pricing.html` | How it works — three beats |
-| `about.html` | Jeff DeJaegher and Halo Switch |
-| `contact.html` | Enquiry form |
-
-## Contact form
-
-`contact.html` posts to Formspree at `https://formspree.io/f/mbgjrgeq`.
-
-## Preview locally
-
-```bash
-python3 -m http.server 8080
-```
-
-Open `http://127.0.0.1:8080/`, or open `index.html` directly in a browser — relative asset paths work either way.
-
-## Publishing
-
-The site is published from this **public** repository, `halo-switch-site`, served by GitHub Pages from the repository root.
-
-## Design lock
-
-- Full black canvas (`#000000`), white type, sparse red accent (`#e31937`)
-- Gray HALOSWITCH banner as the home hero mark, without a baked-in tagline
-- Brand reads Halo Switch (title case). Product mark reads HALOSWITCH
-- Nav: `Home / HALOSWITCH / How it works / About / Contact`
-- Outline CTAs
-- No rounded SaaS cards, no teal/purple, no fake testimonials
+Do not delete or archive this repository unless Pages-off still fails.
